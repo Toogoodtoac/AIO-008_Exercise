@@ -14,7 +14,7 @@ def cos_approx(x,n):
     for i in range(n):
         term = (-1)**i * x**(2*i) / factorial(2*i)
         result += term
-    return result + 1  # cos(0) = 1
+    return result   # cos(0) = 1
 def sinh_approx(x,n):
     result = 0
     for i in range(n):
@@ -26,7 +26,7 @@ def cosh_approx(x,n):
     for i in range(n):
         term = x**(2*i) / factorial(2*i)
         result += term
-    return result + 1 
+    return result  
 if __name__ == '__main__':
     x=float(input("Enter x:"))
     n=int(input("Enter n:"))
