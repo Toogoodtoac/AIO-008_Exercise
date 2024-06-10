@@ -1,1 +1,1 @@
-# AIO-008_Exercise in 2024, it have been writting in Python 3.12 
+# AIO-008_Exercise in 2024, it has been writting in Python 3.12 
